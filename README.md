@@ -1,4 +1,4 @@
-# Welcome to ASP.NET Core
+# Welcome to ASP.NET Core First WebApp
 
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
 
@@ -36,4 +36,8 @@ You've created a new ASP.NET Core project. [Learn what's new](https://go.microso
 *   [Run tools such as EF migrations and more](https://go.microsoft.com/fwlink/?LinkID=517853)
 *   [Publish to Microsoft Azure Web Apps](https://go.microsoft.com/fwlink/?LinkID=398609)
 
-We would love to hear your [feedback](https://go.microsoft.com/fwlink/?LinkId=518015)
+## Run & Deploy in Openshift
+
+*   [create the template]  oc create -f aspnet-custom-webapp-s2i-template.json
+*   [Create a new application based on the template] oc new-app --templat aspnet-custom-webapp
+
