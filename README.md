@@ -39,5 +39,5 @@ You've created a new ASP.NET Core project. [Learn what's new](https://go.microso
 ## Run & Deploy in Openshift
 
 *   [create the template]  oc create -f aspnet-custom-webapp-s2i-template.json
-*   [Create a new application based on the template] oc new-app --templat aspnet-custom-webapp
+*   [Create a new application based on the template] oc new-app --template aspnet-custom-webapp
 
