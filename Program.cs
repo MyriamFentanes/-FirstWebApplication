@@ -20,6 +20,7 @@ namespace FirstWebApplication
             var host = new WebHostBuilder()
                 .UseConfiguration(config)
                 .UseKestrel()
+                ..UseUrls( "http://localhost:5000", "http://*:5000")
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
